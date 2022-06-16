@@ -6,6 +6,8 @@ namespace Homework1_arrays
     {
         static void Main(string[] args)
         {
+            //Task was to creat 3 arrays with size 3 with different types - int, long and float, assign 1st value in arreas as any number according to type of array, 2nd value as a squere of 1st value, 3rd - sum of 1st and 2nd. Need to show all the values in console.
+
             int[] array1 = new int[3];
             long[] array2 = new long[3];
             float[] array3 = new float[3];
@@ -34,6 +36,7 @@ namespace Homework1_arrays
                 Console.WriteLine("Array1, value" + i + ": " + array1[i] + "; \tArray2, value" + i + ": " + array2[i] + "; \tArray3, value" + i + ": " + array3[i]);
                 i++;
             }
+            Console.ReadKey();
         }
     }
 }
