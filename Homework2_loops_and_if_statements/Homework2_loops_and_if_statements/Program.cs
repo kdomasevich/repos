@@ -76,7 +76,7 @@ namespace Homework2_loops_and_if_statements
                     min_value = array_to_be_processed2[i];
                     min_value_index = i;
                     }
-                else if (array_to_be_processed2[i] == min_value || array_to_be_processed2[i] == min_value)
+                else if (array_to_be_processed2[i] == min_value || array_to_be_processed2[i] == max_value)
                     {
                     multiple_min_or_max_values = true;
                     }

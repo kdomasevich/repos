@@ -18,13 +18,13 @@ namespace Homework3_methods
 
         static int[] FlipTheArray(int[] arrayLocal, int arrayLength) //method to flip an array - filling the new array by values from initial array but in rewerted order
         {
-            int[] rewerted_array = new int[arrayLength];
-            for (int i = 0; i < rewerted_array.Length; i++)
+            int[] rewertedArray = new int[arrayLength];
+            for (int i = 0; i < rewertedArray.Length; i++)
             {
-                rewerted_array[i] = arrayLocal[arrayLength - 1];
+                rewertedArray[i] = arrayLocal[arrayLength - 1];
                 arrayLength--;
             }
-            return rewerted_array;
+            return rewertedArray;
         }
 
         static void PrintAnArray(int[] arrayLocal) //method to print int arrays
