@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Homework6_ITCompany
 {
-    public class QAEmployee : Employee
+    public class DevEmployee : Employee
     {
-        public QAEmployee(Person person, string role, decimal rate, string responsibility, string specialization) : base(person, role, rate, responsibility )
+        public DevEmployee(Person person, string role, decimal rate, string responsibility, string specialization) : base(person, role, rate, responsibility)
         {
             this.Specialization = specialization;
         }

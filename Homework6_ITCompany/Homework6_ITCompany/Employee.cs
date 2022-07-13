@@ -15,15 +15,11 @@ namespace Homework6_ITCompany
             this.Responsibility = responsibility;
         }
 
-        public Company CurrentCompany { get; set; } //???
-
         public string Role { get; set; }
 
         public decimal Rate { get; set; }
 
         public string Responsibility { get; set; }
-
-        public Person Person { get; internal set; } //???
 
         public override string ToString()
         {
